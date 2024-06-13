@@ -11,3 +11,86 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* WeddingInvitation.css */
+.invitation-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Ajusta la altura para que ocupe toda la pantalla */
+  text-align: center;
+}
+
+.custom-shape-divider-top-1718297655 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1718297655 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 500px;
+}
+
+.custom-shape-divider-top-1718297655 .shape-fill {
+  fill: #e0dad4;
+}
+
+.seal {
+  z-index: 2;
+}
+
+.ButtonSello {
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.shape-title {
+  position: absolute;
+  top: 30%; /* Ajusta la posición vertical */
+  left: 50%; /* Ajusta la posición horizontal */
+  transform: translate(-50%, -50%); /* Centra el título */
+  font-size: 24px; /* Ajusta el tamaño de la fuente */
+  color: #333; /* Ajusta el color del texto */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Opcional: sombra de texto */
+  font-size: 50px;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@media (max-width: 768px) {
+  .shape-title {
+    font-size: 5vw; /* Ajuste de tamaño de fuente para dispositivos más pequeños */
+  }
+}
+
+.seal-image {
+  margin-top: 150px;
+  max-width: 500px; /* Tamaño máximo para pantallas más grandes */
+}
+
+@media (max-width: 768px) {
+  .seal-image {
+    max-width: 450px; /* Tamaño máximo para pantallas medianas */
+  }
+}
+
+@media (max-width: 480px) {
+  .seal-image {
+    max-width: 300px; /* Tamaño máximo para pantallas pequeñas (como móviles) */
+  }
+}
+
+
+
+
+
+
