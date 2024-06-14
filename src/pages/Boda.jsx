@@ -3,6 +3,8 @@ import Iniciales from '../components/Iniciales'
 import Fotos from '../components/Fotos'
 import cancion from "../audio/StandByMe.mp3"
 import Calendar from '../components/Calendar';
+import Frase from '../components/Frase';
+import Confirmar from '../components/Confirmar';
 
 function Boda() {
   const audioRef = useRef(null);
@@ -23,6 +25,8 @@ function Boda() {
       <Iniciales></Iniciales>
       <Fotos></Fotos>
       <Calendar></Calendar>
+      <Frase></Frase>
+      <Confirmar></Confirmar>
     </div>
     
     

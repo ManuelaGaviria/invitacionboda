@@ -128,6 +128,28 @@ code {
   width: 100%;
 }
 
+.frase-texto {
+  font-size: 40px; /* Ajusta el tamaño del texto según sea necesario */
+  font-family: "Tangerine", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.image-flower {
+  max-width: 100%; /* Asegúrate de que las imágenes no se desborden */
+  height: auto;
+  max-height: 200px; /* Limita la altura máxima de las imágenes */
+}
+
+@media (max-width: 767px) {
+  .frase-texto {
+    font-size: 30px; /* Ajusta el tamaño del texto para pantallas más pequeñas */
+  }
+  .image-flower {
+    width: 100px; /* Ajusta el tamaño de las imágenes para pantallas más pequeñas */
+  }
+}
+
 .btn-mapa{
   background-color: #c8af6d;
   padding: 10px;
