@@ -1,22 +1,35 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 import foto1 from "../images/foto1.jpeg";
 import foto2 from "../images/foto2.jpeg";
 import foto3 from "../images/foto3.jpeg";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Fotos() {
+  const variants = {
+    hidden: { opacity: 0, x: -100 },
+    visible: (custom) => ({
+      opacity: 1,
+      x: 0,
+      transition: {
+        delay: custom * 0.5,
+        duration: 0.6,
+      },
+    }),
+  };
+
   return (
     <div className="container">
       <div className="row d-none d-md-flex">
-        <div className="col">
+        <motion.div className="col" custom={3} initial="hidden" animate="visible" variants={variants}>
           <img src={foto1} alt="foto1" className="img-custom" />
-        </div>
-        <div className="col">
+        </motion.div>
+        <motion.div className="col" custom={2} initial="hidden" animate="visible" variants={variants}>
           <img src={foto2} alt="foto2" className="img-custom" />
-        </div>
-        <div className="col">
+        </motion.div>
+        <motion.div className="col" custom={1} initial="hidden" animate="visible" variants={variants}>
           <img src={foto3} alt="foto3" className="img-custom" />
-        </div>
+        </motion.div>
       </div>
       <div id="carouselExampleIndicators" className="carousel slide d-md-none" data-bs-ride="carousel">
         <div className="carousel-indicators">

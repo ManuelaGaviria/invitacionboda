@@ -68,7 +68,7 @@ code {
 
 @media (max-width: 768px) {
   .shape-title {
-    font-size: 5vw; /* Ajuste de tamaño de fuente para dispositivos más pequeños */
+    font-size: 40px; /* Ajuste de tamaño de fuente para dispositivos más pequeños */
   }
 }
 
@@ -77,9 +77,20 @@ code {
   max-width: 450px; /* Tamaño máximo para pantallas más grandes */
 }
 
+.clock-icon{
+  font-size: 50px;
+  color: #c8af6d;
+}
+
+@media (max-width: 480px) {
+  .clock-icon {
+    font-size: 40px;
+  }
+}
+
 @media (max-width: 768px) {
   .seal-image {
-    max-width: 450px; /* Tamaño máximo para pantallas medianas */
+    max-width: 350px; /* Tamaño máximo para pantallas medianas */
   }
 }
 
@@ -91,6 +102,13 @@ code {
 
 .titulo{
   margin-top: 10px;
+  font-family: "Tangerine", cursive;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50px;
+}
+
+.hora{
   font-family: "Tangerine", cursive;
   font-weight: 700;
   font-style: normal;
@@ -110,6 +128,20 @@ code {
   width: 100%;
 }
 
+.btn-mapa{
+  background-color: #c8af6d;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  transition: 0.3s;
+}
 
+.btn-mapa:hover{
+  font-size: 25px;
+  transition: 0.3s;
+}
 
 
