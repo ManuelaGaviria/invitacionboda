@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import Iniciales from '../components/Iniciales'
 import Fotos from '../components/Fotos'
-import cancion from "../audio/StandByMe.mp3"
+import cancion from "../audio/cepeda.mp3"
 import Calendar from '../components/Calendar';
 import Frase from '../components/Frase';
 import Confirmar from '../components/Confirmar';
@@ -17,11 +17,9 @@ function Boda() {
     }
   }, []);
 
-  //<audio ref={audioRef} src={cancion} loop autoPlay style={{ display: 'none' }} />
-
   return (
     <div>
-      
+      <audio ref={audioRef} src={cancion} loop autoPlay style={{ display: 'none' }}></audio>
       <Iniciales></Iniciales>
       <Fotos></Fotos>
       <Calendar></Calendar>
