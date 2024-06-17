@@ -2,7 +2,6 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import ButtonLink from "./ButtonLink";
 import sello from "../images/sello.png"; // Importa la imagen del sello
-import flores from "../images/flores.png"; // Importa la imagen de las flores
 
 const WeddingInvitation = () => {
 
