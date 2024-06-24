@@ -11,7 +11,7 @@ function Frase() {
         </div>
         <div className='col-6 d-flex text-center align-items-center justify-content-center'>
           <h1 className='frase-texto'>
-            "Un gran matrimonio no es cuando la 'pareja perfecta' se une. Es cuando una pareja imperfecta aprende a disfrutar de sus diferencias." - Dave Meurer
+          Duas animas in unum destinatum, nobiscum ad amorem qui nos coniungit celebrandum advenite, testes felicitatis nostrae esto.
           </h1>
         </div>
         <div className='col-3 d-flex align-items-center justify-content-center'>

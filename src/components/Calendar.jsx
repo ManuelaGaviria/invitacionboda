@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import calendar from "../images/calendar.png";
 import { LuClock3 } from "react-icons/lu";
-import { FaMapLocationDot } from "react-icons/fa6";
+import { SiTinyletter } from "react-icons/si";
 import { IoRestaurant } from "react-icons/io5";
 
 function Calendar() {
@@ -39,24 +39,18 @@ function Calendar() {
                         </div>
 
                         {/* Contenedor del mapa */}
-                        <div className='d-flex justify-content-center align-items-center'>
-                            <FaMapLocationDot className='clock-icon m-3' />
-                            <div>
-                                <a href="https://www.google.com/maps/place/Cra.+36+%2334-81,+Medell%C3%ADn,+Buenos+Aires,+Medell%C3%ADn,+Antioquia/@6.2344035,-75.5665864,17z/data=!3m1!4b1!4m6!3m5!1s0x8e44284f6b457add:0x37a81d1b9293b60c!8m2!3d6.2343982!4d-75.5640115!16s%2Fg%2F11fnx1j49v?entry=ttu"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="btn-mapa">
-                                    Ver mapa
-                                </a>
-                            </div>
+                        <div className='d-flex justify-content-center align-items-center mb-3'>
+                            <SiTinyletter className='clock-icon m-3' />
+                            <h1 className='hora'>Lluvia de Sobres</h1>
                         </div>
 
                         {/* Contenedor del almuerzo */}
                         <h3 className='titulo'>¿Nos acompañas a almorzar?</h3>
+                        <p></p>
                         <div className='d-flex justify-content-center align-items-center'>
                             <IoRestaurant className='clock-icon m-3' />
                             <div>
-                                <a href="https://www.google.com/maps/place/Cra.+36+%2334-81,+Medell%C3%ADn,+Buenos+Aires,+Medell%C3%ADn,+Antioquia/@6.2344035,-75.5665864,17z/data=!3m1!4b1!4m6!3m5!1s0x8e44284f6b457add:0x37a81d1b9293b60c!8m2!3d6.2343982!4d-75.5640115!16s%2Fg%2F11fnx1j49v?entry=ttu"
+                                <a href="https://crepesywaffles.com/ubicaciones/florida"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="btn-mapa">
